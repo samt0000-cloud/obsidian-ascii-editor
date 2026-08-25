@@ -114,7 +114,7 @@ obsidian plugin:reload id=ascii-diagram-editor
 obsidian dev:errors
 ```
 - **ソース側(00_MyProjects)が正本**。Vault側はコピーなので、編集は必ずソース側で行いVaultへ反映すること
-- **gitは未初期化**。履歴管理を始めるなら `git init` を推奨
+- リモートリポジトリ: https://github.com/samt0000-cloud/obsidian-ascii-editor (mainブランチ、2026-08-25初回プッシュ)
 
 ### ハマりどころ(再発防止)
 - **`obsidian dev:screenshot` は古いフレームを返すことがある**。変更確認時は再描画を強制し(スクロール操作等)、少し待ってから撮り直す。DOM/computed styleでの確認を優先
