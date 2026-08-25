@@ -1,0 +1,9 @@
+{
+  "id": "ascii-diagram-editor",
+  "name": "ASCII図解エディタ",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "AIへの指示用のASCII図解を方眼紙エディタで作成。罫線・図形・カッコを1マス=全角1文字で配置し、コピペしても位置関係が崩れません。",
+  "author": "itamura",
+  "isDesktopOnly": false
+}
